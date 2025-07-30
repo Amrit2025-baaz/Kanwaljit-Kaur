@@ -1,1 +1,74 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f8f9fa;
+        }
+        .contact-container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        .contact-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            font-size: 18px;
+            color: #555;
+        }
+        .contact-item i {
+            font-size: 20px;
+            margin-right: 10px;
+            color: #007bff;
+        }
+        .contact-item a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        
+        <!-- Phone -->
+        <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+1234567890">+1 234 567 890</a>
+        </div>
+        
+        <!-- Email -->
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:example@email.com">example@email.com</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
